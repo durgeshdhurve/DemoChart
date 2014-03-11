@@ -77,10 +77,10 @@
 
 - (SChartSeries*) sChart:(ShinobiChart *)chart seriesAtIndex:(NSInteger)index{
     
-    //SChartLineSeries *series = [[SChartLineSeries alloc] init];
     SChartLineSeries *series = [[SChartLineSeries alloc] init];
+
     //SChartPieSeries, SChartPointSeries, SChartRadialSeries
-    //series.style.showFill = YES;
+    series.style.showFill = YES;
   //  series.style.areaColor = [UIColor grayColor];
 //    series.style.areaColorBelowBaseline = [UIColor redColor];
     //series.style.lineColor = [UIColor redColor];
